@@ -11,7 +11,7 @@
  </head>
  <body>
      <header>
-     <h1>Kim Le's IT116 Portal</h1>
+     <h1>Kim Le's IT121 Portal</h1>
         <nav class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
             <a href="https://lekimberly17.github.io/stylin-with-css/" target="_blank">Stylin' with CSS</a>
@@ -41,11 +41,20 @@
        </p>
 
      <footer>
-      <p><small>&copy; 2021 by 
+        <p><small>&copy; 2020-<span id="copyright"></span>
           Kim Le, All Rights Reserved ~ 
           <a id="html-checker" href="#">Check HTML</a> ~ 
           <a id="css-checker" href="#">Check CSS</a></small>
-     </p>
+        </p>
+
+
+
+        <script>
+            let myDate = new Date();
+            let myYear = myDate.getFullYear();
+            document.getElementById("copyright").innerHTML = myYear;
+            console.log(myYear);
+        </script>
     </footer>
   </main>
      
