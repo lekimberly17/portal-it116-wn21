@@ -69,7 +69,8 @@ footer {
     }
     
     picture.profile img {
-        width: 50%;
+        width: 20%;
+        padding: 2%;
         float: left;
         margin-right: 2em;
     }
@@ -89,7 +90,7 @@ footer {
     }
     
     picture.profile img {
-        width: 50%;
+        width: 20%;
         float: right;
         margin-left: 1em;
     }
